@@ -28,7 +28,7 @@ int main()
              << endl;
 
         // 테이블 Head
-        cout << "    ";
+        cout << "   ";
         for (int i = 1; i <= userNum; i++)
         {
             cout << setw(5) << i;
