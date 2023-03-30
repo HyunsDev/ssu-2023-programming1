@@ -2,8 +2,6 @@
 #include <iomanip>
 using namespace std;
 
-// TODO: 텍스트 정렬 맞추기
-
 int main()
 {
     int userNum;
@@ -26,29 +24,32 @@ int main()
             continue;
         }
 
+        cout << "\nMULTIPLICATION TABLE\n"
+             << endl;
+
         // 테이블 Head
         cout << "    ";
         for (int i = 1; i <= userNum; i++)
         {
-            cout << setw(6) << i;
+            cout << setw(5) << i;
         }
         cout << endl;
 
         // 구분선
-        cout << "======";
+        cout << "-----";
         for (int i = 1; i <= userNum; i++)
         {
-            cout << "======";
+            cout << "-----";
         }
         cout << endl;
 
         // 숫자 테이블
         for (int i = 1; i <= userNum; i++)
         {
-            cout << setw(3) << i << "|";
+            cout << setw(2) << i << "|";
             for (int ii = 1; ii <= userNum; ii++)
             {
-                cout << setw(6) << i * ii;
+                cout << setw(5) << i * ii;
             }
             cout << endl;
         }
