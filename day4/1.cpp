@@ -1,9 +1,8 @@
-
 #include <iostream>
-
 using namespace std;
 
-int main() {
+int main()
+{
     double f_temp = 70.0;
     double c_temp;
 

@@ -1,11 +1,10 @@
-
 #include <iostream>
-
 using namespace std;
 
-int main() {
+int main()
+{
     cout << "화씨 온도는 몇 도 입니까? ";
-    
+
     double f_temp;
     cin >> f_temp;
 
