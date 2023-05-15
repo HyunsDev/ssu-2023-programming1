@@ -3,6 +3,11 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "iomanip": "cpp",
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "iosfwd": "cpp"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }
