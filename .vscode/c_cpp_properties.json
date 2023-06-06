@@ -4,7 +4,8 @@
             "name": "Mac",
             "includePath": [
                 "${workspaceFolder}/**",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers"
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers",
+                "/opt/homebrew/Cellar/sfml/2.5.1_2/include/"
             ],
             "defines": [],
             "macFrameworkPath": [

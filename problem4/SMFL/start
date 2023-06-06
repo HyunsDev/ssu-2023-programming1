@@ -1,0 +1,2 @@
+#!/bin/bash
+cd "/Users/hyuns/Documents/GitHub/ssu-2023-programming1/problem4/SMFL/" && g++ Main.cpp BreakOut.cpp -o Main -I /opt/homebrew/Cellar/sfml/2.5.1_2/include -L /opt/homebrew/Cellar/sfml/2.5.1_2/lib -lsfml-window -lsfml-system -lsfml-graphics -I/Users/hyuns/Documents/GitHub/ssu-2023-programming1/problem4/SMFL/ && "/Users/hyuns/Documents/GitHub/ssu-2023-programming1/problem4/SMFL/"Main
